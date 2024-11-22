@@ -1,0 +1,77 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #f0f2f5;
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), 
+    url('wall11.jpg') no-repeat center center/cover;
+
+  
+  
+}
+
+
+
+
+.login {
+  background-color:#96c8a2  ;
+  padding: 2rem;
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.login h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+
+.login input,
+.login input[type="password"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+  border-color: #007bff;
+}
+
+
+.login button {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background: #0056b3;
+}
+
+ 
+
+
+
